@@ -1,0 +1,51 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  basicTimeStep 10
+  coordinateSystem "NUE"
+  contactProperties [
+    ContactProperties {
+      material2 "thymio body"
+      coulombFriction [
+        0.7
+      ]
+    }
+  ]
+}
+Viewpoint {
+  orientation -0.5396290753261657 0.6458224948408081 0.5401053288204274 1.9842136410272473
+  position 0.844516413987605 4.117599809324706 0.3421388370478216
+}
+TexturedBackground {
+  luminosity 0.5
+}
+TexturedBackgroundLight {
+  luminosity 0.5
+}
+RectangleArena {
+  floorSize 2 2
+  floorTileSize 2 2
+  floorAppearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "textures/floor_chequered.png"
+      ]
+    }
+    metalness 0
+  }
+}
+Thymio2 {
+  hidden position_0_0 323.73604675145674
+  hidden position_0_1 321.6480549956366
+  hidden linearVelocity_0 -0.04459396342842731 7.311096905026327e-07 0.009450710847785603
+  hidden angularVelocity_0 -4.280925841719268e-05 -0.7305970697080508 -4.5202983430793416e-05
+  hidden rotation_1 -0.9999999999999999 0 0 2.9895892218817566
+  hidden linearVelocity_1 -0.004491125862729265 -1.2046683006890243e-06 0.003136317691353606
+  hidden angularVelocity_1 -0.0003939345030424294 -0.7306107198927716 0.0002007776945102989
+  hidden rotation_2 -1 0 0 5.077580977701912
+  hidden linearVelocity_2 -0.06449179050166168 -2.877745071039159e-07 0.04483736042513437
+  hidden angularVelocity_2 2.282993587182435 -0.733163116992071 3.2844535141550453
+  translation -0.2545412081134821 -2.0017393303983777e-05 0.25844524253659873
+  rotation 0.009043624256370642 0.9999478138422696 0.004752099785929142 -0.9672906054147729
+  controller "cw2_2"
+  window "thymio2"
+}

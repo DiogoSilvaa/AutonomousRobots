@@ -1,0 +1,173 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  basicTimeStep 10
+  coordinateSystem "NUE"
+  contactProperties [
+    ContactProperties {
+      material2 "thymio body"
+      coulombFriction [
+        0.7
+      ]
+    }
+  ]
+}
+Viewpoint {
+  orientation -0.5462356857090371 0.6323663919874415 0.5493080392118468 2.0077700587578335
+  position 0.6110888545184935 3.9118068828473076 0.2307667836764197
+}
+TexturedBackground {
+  luminosity 0.5
+}
+TexturedBackgroundLight {
+  luminosity 0.5
+}
+RectangleArena {
+  translation 0.03039 8.88178e-15 -0.00742691
+  floorSize 2 2
+  floorTileSize 2 2
+  floorAppearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "textures/floor_chequered.png"
+      ]
+    }
+    metalness 0
+  }
+}
+Wall {
+  translation 0.312405 6.9722e-14 0.720599
+  rotation 0 1 0 3.14159
+  name "wall(8)"
+  size 0.3 0.1 0.01
+}
+Wall {
+  translation -0.353248 7.68274e-14 -0.924552
+  rotation 0 1 0 -1.5707953071795862
+  name "wall(6)"
+  size 0.15 0.1 0.01
+}
+Wall {
+  translation -0.296183 -2.44249e-14 -0.509983
+  rotation 0 1 0 -2.6179953071795863
+  name "wall(5)"
+  size 0.3 0.1 0.01
+}
+Wall {
+  translation -0.107386 5.77325e-15 -0.473791
+  rotation 0 -1 0 1.0472
+  name "wall(7)"
+  size 0.26 0.1 0.01
+}
+Wall {
+  translation -0.558916 7.41629e-14 0.121645
+  rotation 0 1 0 -1.5707953071795862
+  name "wall(4)"
+  size 0.5 0.1 0.01
+}
+Wall {
+  translation 0.166639 -3.10863e-15 0.749933
+  rotation 0 1 0 -1.5707953071795862
+  name "wall(3)"
+  size 0.5 0.1 0.01
+}
+Can {
+  translation -0.35827398323743975 0.06103255625000887 -0.8069640099042219
+  rotation -4.733244157563604e-16 1 -2.6752166460759727e-16 -0.18254591351420463
+  name "can(5)"
+  mass 0.55
+}
+Can {
+  translation -0.600559 0.0610325562500089 0.679538
+  rotation -0.8485879820413622 0.5289753997509882 -0.009135819243543897 -3.139529453270712e-15
+  name "can(4)"
+  mass 0.55
+}
+Can {
+  translation 0.731673 0.0610325562500089 0.264934
+  rotation -0.8777121329162905 0.47901526776642533 -0.012875751558491995 -3.080500006821112e-15
+  name "can(3)"
+  mass 0.55
+}
+Rock10cm {
+  translation -0.542492 0.05 0.378439
+  name "rock 10 cm(6)"
+}
+Rock10cm {
+  translation -0.00629289 0.05 -0.946417
+  name "rock 10 cm(5)"
+}
+Rock10cm {
+  translation 0.31708 0.05 0.207244
+  rotation 0 1 0 0.261799
+  name "rock 10 cm(4)"
+}
+Rock10cm {
+  translation -0.699506 0.05 -0.629313
+  name "rock 10 cm(3)"
+}
+Rock10cm {
+  translation 0.762101 0.05 0.602085
+  name "rock 10 cm(2)"
+}
+Can {
+  translation -0.100599 0.0610325562500089 0.296157
+  rotation -0.9950067097185074 0.09533724032241014 -0.029537403793448366 -2.6927884724210082e-15
+  name "can(2)"
+  mass 0.55
+}
+Can {
+  translation 0.588335 0.0610325562500089 0.0475523
+  rotation -0.8695243694378545 0.49377318417813876 -0.010743069406980577 -3.043574337067394e-15
+  name "can(1)"
+  mass 0.55
+}
+Wall {
+  translation 0.588664 -5.32907e-15 -0.501907
+  rotation 0 1 0 -1.5707953071795862
+  name "wall(2)"
+  size 1 0.1 0.01
+}
+Wall {
+  translation -0.424856 6.88338e-14 -0.281494
+  rotation 0 1 0 -1.5707953071795862
+  name "wall(1)"
+  size 0.3 0.1 0.01
+}
+Wall {
+  translation -0.301749 -3.9968e-15 -0.131515
+  size 0.9 0.1 0.01
+}
+Can {
+  translation 0.28791274756909285 0.06103255625000891 -0.7467116174416711
+  rotation 8.718605443496922e-14 1 -3.1195619746399463e-15 0.0006565624085107024
+  mass 0.55
+}
+Thymio2 {
+  hidden position_0_0 3082.9069123365844
+  hidden position_0_1 3003.1555698510606
+  hidden linearVelocity_0 -0.015905260655301026 -2.1049828056852045e-05 0.004917371668362227
+  hidden angularVelocity_0 -0.0017298076522949749 0.8166638039130442 -0.0006126386888506588
+  hidden rotation_1 1 0 0 4.146111818586982
+  hidden linearVelocity_1 0.01021746666968167 6.213714288626172e-06 -0.032169023742101024
+  hidden angularVelocity_1 -3.2583190541302978 0.816659236759266 -0.5341834197291203
+  hidden rotation_2 -1 0 0 0.20700698078174476
+  hidden linearVelocity_2 -0.0029968279206825143 3.817297242406335e-05 0.048438468973767496
+  hidden angularVelocity_2 3.254859410895484 0.8165945159088165 0.5329581658594439
+  translation 0.48030455156682983 -1.9867500893486212e-05 -0.8722856713564111
+  rotation 0.00036897751453831326 -0.9999886756172411 -0.004744733171627083 -2.984776765591933
+  controller "cw2_2"
+  window "thymio2"
+}
+Thymio2 {
+  hidden position_0_0 1709.2879729269698
+  hidden position_0_1 1780.2899174319618
+  hidden rotation_1 1 0 0 0.2615693741222935
+  hidden rotation_2 -1 0 0 4.1347098070407196
+  translation 0.400358 -2.00485e-05 0.463813
+  rotation 0.004360846838474032 0.9999791968706457 0.0047527719059561714 -1.6563199009657217
+  name "Thymio II - Extra"
+  controller "cw2_2_extra_robot"
+}
+Rock10cm {
+  translation -0.132727 0.05 0.661132
+}

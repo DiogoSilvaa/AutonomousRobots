@@ -1,0 +1,52 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  basicTimeStep 10
+  coordinateSystem "NUE"
+  contactProperties [
+    ContactProperties {
+      material2 "thymio body"
+      coulombFriction [
+        0.7
+      ]
+    }
+  ]
+}
+Viewpoint {
+  orientation -0.8578669561679362 0.36863223349427615 0.35801475101478925 1.6774189606995007
+  position 0.6767966490810968 7.422764506288621 0.5541017266339762
+}
+TexturedBackground {
+  luminosity 0.5
+}
+TexturedBackgroundLight {
+  luminosity 0.5
+}
+RectangleArena {
+  translation 0.771318 -0.03 -0.113282
+  rotation 0 1 0 0.7853996938995746
+  floorSize 4 4
+  floorTileSize 4 4
+  floorAppearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "textures/plastic.jpg"
+      ]
+    }
+    metalness 0
+  }
+}
+Thymio2 {
+  hidden position_0_0 2407.969843248853
+  hidden position_0_1 2256.9886201761374
+  hidden rotation_1 -1 0 0 4.77331470810814
+  hidden rotation_2 -1 0 0 4.958090408513757
+  translation 0.860987 -0.0300201 -0.388221
+  rotation -0.003345100384106953 0.9999831148247953 -0.004751880545642925 -1.915115307179586
+  controller "cw2_1_2"
+  window "thymio2"
+  bodySlot [
+    Thymio2Pen {
+      leadSize 0.006
+    }
+  ]
+}
